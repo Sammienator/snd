@@ -1,28 +1,38 @@
-import React ,  {useState} from 'react'
-import { AiOutlineClose,AiOutlineMenu } from 'react-icons/ai'
+import React  from 'react'
+// import { AiOutlineClose,AiOutlineMenu } from 'react-icons/ai'
+import  logo from '../assets/logo.jpeg'
 
 
 
 
 const Navbar = () => {
-    const [Nav, setNav] = useState(true)
+    // const [Nav, setNav] = useState(true)
 
-    const handleNav = () => {
-        setNav(!Nav)
-    }
+    // const handleNav = () => {
+    //     setNav(!Nav)
+    // }
 
 
   return (
-    <div id='hero' className= 'flex justify-between items-center  h-24 max-w-[1240px] mx-auto px-4 text-black  ' >
-        <h1 className='w-full text-3xl font-bold text-[#aqua]  text-left'>S And D Naturals.  </h1>
-      <ul className='hidden sm:flex hover:cursor-pointer text-white underline'>
-        <li className='p-4 hover:scale-105 duration-500 ease-in-out'><a href="#hero">Home.  </a> </li>
+
+    
+    <div  id='back' className= 'flex  justify-between items-center   h-24 max-w-[1240px] mx-auto px-4 text-black  ' >
+        
+
+
+        <img className='w-20  mt-10 shadow-xl '  src={logo} alt=" my pic" />
+        
+
+        
+        
+      <ul className=' flex flex-row   hover:cursor-pointer text-white font-bold underline'>
+        <li className='p-4 hover:scale-105 duration-500 ease-in-out '><a href="#hero">Home.  </a> </li>
         <li className='p-4 hover:scale-105 duration-500 ease-in-out'> <a href="#about"> About.  </a>  </li>
-        <li className='p-4 hover:scale-105 duration-500 ease-in-out'><a href="#product">Products.  </a>  </li>
-        <li className='p-4 hover:scale-105 duration-500 ease-in-out'><a href="#footer">Contacts.  </a>  </li>
+        <li className='p-4 hover:scale-105 duration-500 ease-in-out '><a href="#product">Products.  </a>  </li>
+        
       </ul>
 
-      <div onClick={handleNav} className='block sm:hidden' >
+      {/* <div onClick={handleNav} className='block sm:hidden' >
 
         {!Nav ? <AiOutlineClose size={40}/> : <AiOutlineMenu size={40} /> }
 
@@ -40,7 +50,7 @@ const Navbar = () => {
         
 
         </ul>
-      </div>
+      </div> */}
       
     
     

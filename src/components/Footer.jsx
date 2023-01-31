@@ -1,5 +1,5 @@
 import React from 'react'
-import pic2 from '../assets/pic2.jpg'
+import logo from '../assets/logo.jpeg'
 
 
 
@@ -13,7 +13,7 @@ const Footer = () => {
 
 
                 <div >
-                    <img className='h-20  shadow-xl hover:scale-105 duration-500 ease-in-out' src={pic2} alt="" />
+                    <img className='h-20  shadow-xl hover:scale-105 duration-500 ease-in-out' src={logo} alt="" />
                 </div>
 
                 <div id='icons'  className='flex justify-center  space-x-4 p-4 text-3xl hover:scale-110 duration-300 ease-in-out'>
@@ -52,7 +52,7 @@ const Footer = () => {
                     <div className='flex space-x-3'>
                         <input type="text" className="flex-1 px-4 rounded-full focus:outline-black border " placeholder = 'Your email for updates!' />
 
-                       <button className='px-6 py-2 text-black font-bold rounded-full bg-[aqua] hover:bg-blue-300 focus:outline-none'>
+                       <button className='px-6 py-2 text-white font-bold rounded-full bg-[#00B573] hover:bg-black focus:outline-none'>
                         Go.
 
                        </button>
