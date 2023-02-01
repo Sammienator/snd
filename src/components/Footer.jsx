@@ -52,7 +52,7 @@ const Footer = () => {
                     <div className='flex space-x-3'>
                         <input type="text" className="flex px-8 rounded-full focus:outline-black border   " placeholder = 'Your email for updates.' />
 
-                       <button className='px-6 py-2 text-white font-bold rounded-full bg-[black] hover:bg-black focus:outline-none'>
+                       <button className='px-2 py-2 text-white font-bold rounded-full bg-[black] hover:bg-black focus:outline-none'>
                         Go.
 
                        </button>

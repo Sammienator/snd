@@ -25,7 +25,7 @@ const Navbar = () => {
 
         
         
-      <ul className=' flex flex-row  mt-10 text-2xl  hover:cursor-pointer text-[#E63E00]  font-bold underline'>
+      <ul className=' flex flex-row  mt-10 text-xl  hover:cursor-pointer text-[#E63E00]  font-bold underline'>
         <li className='p-4 hover:scale-105  duration-500 ease-in-out s '><a href="#hero">Home.  </a> </li>
         {/* <li className=' p-4 hover:scale-105 duration-500 ease-in-out shadow '> <a href="#about"> About.  </a>  </li> */}
         <li className='p-4 hover:scale-105 duration-500 ease-in-out '><a href="#product">Products.  </a>  </li>
