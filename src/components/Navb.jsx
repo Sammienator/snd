@@ -25,10 +25,10 @@ const Navbar = () => {
 
         
         
-      <ul className=' flex flex-row   hover:cursor-pointer text-white font-bold underline'>
-        <li className='p-4 hover:scale-105 duration-500 ease-in-out '><a href="#hero">Home.  </a> </li>
-        <li className='p-4 hover:scale-105 duration-500 ease-in-out'> <a href="#about"> About.  </a>  </li>
-        <li className='p-4 hover:scale-105 duration-500 ease-in-out '><a href="#product">Products.  </a>  </li>
+      <ul className=' flex flex-row   hover:cursor-pointer text-[#008080]  font-bold underline'>
+        <li className='p-4 hover:scale-105 duration-500 ease-in-out shadow '><a href="#hero">Home.  </a> </li>
+        {/* <li className=' p-4 hover:scale-105 duration-500 ease-in-out shadow '> <a href="#about"> About.  </a>  </li> */}
+        <li className='p-4 hover:scale-105 duration-500 ease-in-out shadow '><a href="#product">Products.  </a>  </li>
         
       </ul>
 

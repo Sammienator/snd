@@ -27,7 +27,7 @@ const Features = () => {
                             They go for 2ksh/ gram....
                             Make your orders while stocks last..
                            </p>
-                           <button className='bg-[#4BA036] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-white hover:scale-105 duration-500 ease-in-out'> Price: 3/= per gram  </button>
+                           <button className='bg-[#008080] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-white hover:scale-105 duration-500 ease-in-out'> Price: 3/= per gram  </button>
                        </div>
                    </div>
                </div>
@@ -64,7 +64,7 @@ const Features = () => {
                             It is a neutral bar made with coconut oil
                             It will be ready for purchase on Feb 25th February @1.8ksh per gram.
                             </p>
-                            <button className='bg-[#4BA036] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-white hover:scale-105 duration-500 ease-in-out'> Price: 2.8/= per gram  </button>
+                            <button className='bg-[#008080] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-white hover:scale-105 duration-500 ease-in-out'> Price: 2.8/= per gram  </button>
                         </div>
                     </div>
                 </div>
@@ -84,7 +84,7 @@ const Features = () => {
                             These toilet bombs however are extremely effective whilst cute and safe.
                             They have a minty scent which is absolutely refreshing.....
                             </p>
-                            <button className='bg-[#4BA036] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-white hover:scale-105 duration-500 ease-in-out'> Price: 3/= per gram  </button>
+                            <button className='bg-[#008080] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-white hover:scale-105 duration-500 ease-in-out'> Price: 3/= per gram  </button>
 
 
                         </div>
@@ -124,7 +124,7 @@ const Features = () => {
                             This bar is a neutral bar, with its active ingredients being Shea butter and aloe vera extract.
                             The bar will be available for purchase on 25th of February @ 3ksh per gram
                             </p>
-                            <button className='bg-[#4BA036] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-white hover:scale-105 duration-500 ease-in-out'> Price: 3/= per gram  </button>
+                            <button className='bg-[#008080] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-white hover:scale-105 duration-500 ease-in-out'> Price: 3/= per gram  </button>
                         </div>
                     </div>
                 </div>

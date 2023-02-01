@@ -12,7 +12,7 @@ const Hero = () => {
 
             {/* <p className='md:text-5xl sm:text-5xl text-xl font-bold pt-2 text-white '> A Soap So Good, Not Buying It Seems Rude </p> */}
 
-            <button className='bg-[#4BA036] w-[200px] rounded-md font-bold my-6 mx-auto py-3  text-white hover:bg-black scale-105 duration-500 ease-in-out '> Get Started  </button>
+            <button className='bg-[#008080] w-[200px] rounded-md font-bold my-6 mx-auto py-3  text-white hover:bg-black scale-105 duration-500 ease-in-out '> Get Started  </button>
 
         </div>
     </div>

@@ -50,9 +50,9 @@ const Footer = () => {
             <div className='flex flex-col justify-between'>
                 <form action="">
                     <div className='flex space-x-3'>
-                        <input type="text" className="flex-1 px-4 rounded-full focus:outline-black border " placeholder = 'Your email for updates!' />
+                        <input type="text" className="flex px-8 rounded-full focus:outline-black border sm:items-center mx-14  " placeholder = 'Your email for updates.' />
 
-                       <button className='px-6 py-2 text-white font-bold rounded-full bg-[#00B573] hover:bg-black focus:outline-none'>
+                       <button className='px-6 py-2 text-white font-bold rounded-full bg-[#00B573npm ] hover:bg-black focus:outline-none'>
                         Go.
 
                        </button>
