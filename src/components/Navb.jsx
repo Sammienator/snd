@@ -25,34 +25,14 @@ const Navbar = () => {
 
         
         
-      <ul className=' flex flex-row   hover:cursor-pointer text-[#008080]  font-bold underline'>
-        <li className='p-4 hover:scale-105 duration-500 ease-in-out shadow '><a href="#hero">Home.  </a> </li>
+      <ul className=' flex flex-row  mt-10 text-2xl  hover:cursor-pointer text-[#E63E00]  font-bold underline'>
+        <li className='p-4 hover:scale-105  duration-500 ease-in-out s '><a href="#hero">Home.  </a> </li>
         {/* <li className=' p-4 hover:scale-105 duration-500 ease-in-out shadow '> <a href="#about"> About.  </a>  </li> */}
-        <li className='p-4 hover:scale-105 duration-500 ease-in-out shadow '><a href="#product">Products.  </a>  </li>
+        <li className='p-4 hover:scale-105 duration-500 ease-in-out '><a href="#product">Products.  </a>  </li>
         
       </ul>
 
-      {/* <div onClick={handleNav} className='block sm:hidden' >
-
-        {!Nav ? <AiOutlineClose size={40}/> : <AiOutlineMenu size={40} /> }
-
-       </div>
-
-
-      <div className={!Nav ? 'fixed left-0 top-0 w-[67%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500' : 'fixed hidden    left-[-100%]' }>
       
-      <h1 className='w-full text-3xl font-bold text-white m-4'>S And D Naturals.  </h1>
-        
-        <ul className='pt-6 uppercase text-white'>
-        <li  className='p-4 border-b border-gray-600'><a href="#hero">Home  </a> </li>
-        <li className='p-4 border-b border-gray-600'> <a href="#about"> About  </a> </li>
-        <li className='p-4 border-b border-gray-600'> <a href="#product">Products  </a> </li>
-        
-
-        </ul>
-      </div> */}
-      
-    
     
     </div>
   )

@@ -35,7 +35,7 @@ const Footer = () => {
 
                 </div>
 
-                <div className='flex flex-col space-y-3 text-black font-bold hover:scale-105 duration-500 ease-in-out'>
+                <div className='flex flex-col space-y-3 text-white font-bold hover:scale-105 duration-500 ease-in-out'>
                     <a href="/" className='hover:text-[black]'> About</a>
                     <a href="/" className='hover:text-[black]'> FAQ</a>
                     <a href="/" className='hover:text-[black]'> Community</a>
@@ -50,9 +50,9 @@ const Footer = () => {
             <div className='flex flex-col justify-between'>
                 <form action="">
                     <div className='flex space-x-3'>
-                        <input type="text" className="flex px-8 rounded-full focus:outline-black border sm:items-center mx-14  " placeholder = 'Your email for updates.' />
+                        <input type="text" className="flex px-8 rounded-full focus:outline-black border   " placeholder = 'Your email for updates.' />
 
-                       <button className='px-6 py-2 text-white font-bold rounded-full bg-[#00B573npm ] hover:bg-black focus:outline-none'>
+                       <button className='px-6 py-2 text-white font-bold rounded-full bg-[black] hover:bg-black focus:outline-none'>
                         Go.
 
                        </button>
