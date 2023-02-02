@@ -16,7 +16,7 @@ function App() {
       <Footer />
    
     </div>
-  );git 
+  );
 }
 
 export default App;
